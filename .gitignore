@@ -1,0 +1,13 @@
+# Captured traffic and credentials — never commit real target data
+*.pcap
+*.pcapng
+harvest.json
+tls_keys.log
+http_log/
+session-*/
+
+# Misc
+*.log
+.DS_Store
+__pycache__/
+*.pyc
